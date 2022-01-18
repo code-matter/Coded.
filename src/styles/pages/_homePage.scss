@@ -48,8 +48,8 @@ div {
               }
               @include mobile {
                 margin: 5px;
-                width: 40px;
-                height: 40px;
+                width: 30px;
+                height: 30px;
               }
             }
             svg {
@@ -57,7 +57,7 @@ div {
               margin: 0 20px;
               @include mobile {
                 margin: 0 10px;
-                width: 20px;
+                width: 15px;
               }
             }
           }

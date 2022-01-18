@@ -1,6 +1,6 @@
 import { m } from "framer-motion";
 import React, { useState } from "react";
-import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaFileAlt } from "react-icons/fa";
 import { useMobile } from "../hooks/useMobile";
 
 const HomePage = () => {
@@ -17,6 +17,9 @@ const HomePage = () => {
           initial={{ x: "20vw" }}
           animate={{ x: 0 }}
         >
+          <a href="/CV_ALEX_EN.pdf" download="AlexCaissy">
+            <FaFileAlt size={50} />
+          </a>
           <a href="https://www.linkedin.com/in/alex-caissy-264ba71b1">
             <FaLinkedinIn size={50} />
           </a>
