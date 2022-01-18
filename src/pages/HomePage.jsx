@@ -1,8 +1,11 @@
 import { m } from "framer-motion";
 import React, { useState } from "react";
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { useMobile } from "../hooks/useMobile";
 
 const HomePage = () => {
+  const isMobile = useMobile();
+
   return (
     <div className="homepage container">
       <div className="homepage-content">
