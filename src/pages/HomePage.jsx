@@ -29,7 +29,10 @@ const HomePage = () => {
         </m.div>
       </div>
       <m.hr initial={{ width: 0 }} animate={{ width: "100%" }} />
-      <m.p initial={{ y: "20vh" }} animate={{ y: 0 }}>
+      <m.p
+        animate={{ y: [-5, 0, -5] }}
+        transition={{ repeat: Infinity, duration: 1 }}
+      >
         CURRENTLY UNDER CONSTRUCTION
       </m.p>
     </div>
