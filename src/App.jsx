@@ -1,7 +1,8 @@
 import { Route, Routes, useLocation } from "react-router-dom";
 import "./styles/App.scss";
-import HomePage from "./pages/HomePage";
+
 import { AnimatePresence, domAnimation, LazyMotion } from "framer-motion";
+import HomePage from "./pages/HomePage";
 
 function App() {
   const location = useLocation();

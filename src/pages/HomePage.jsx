@@ -17,9 +17,9 @@ const HomePage = () => {
           initial={{ x: "20vw" }}
           animate={{ x: 0 }}
         >
-          <a href="/CV_ALEX_EN.pdf" download="AlexCaissy">
+          {/* <a href="/CV_ALEX_EN.pdf" download="CV-Alex-Caissy">
             <FaFileAlt size={50} />
-          </a>
+          </a> */}
           <a href="https://www.linkedin.com/in/alex-caissy-264ba71b1">
             <FaLinkedinIn size={50} />
           </a>
